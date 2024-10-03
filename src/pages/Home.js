@@ -6,7 +6,7 @@ function Home() {
             <div className={"student-container"}>
                 <h1>Student Management System Dashboard</h1>
                 <br/><br/>
-                <img src={"./images/dashboard-logo.png"} width={"400px"} alt={"dashboard-logo"}/>
+                <img src={"/sdp-react/images/dashboard-logo.png"} width={"400px"} alt={"dashboard-logo"}/>
                 <br/><br/>
                 <Link className={"back-link"} to='/dashboard/submit'>Add Student</Link>
                 <Link className={"back-link"} to='/dashboard/get'>Add events</Link>
